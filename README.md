@@ -1,6 +1,6 @@
 # p4c-exit-test
 
-See `p4c/testdata/p4_16_samples/exit1.p4`
+See https://github.com/p4lang/p4c/blob/master/testdata/p4_16_samples/exit1.p4
 
 I dumped FrontendLast for `exit1.p4`. I have used `p4test`.  The contents of exit1-FrontEnd_54_FrontEndLast.p4 are included below.  Note, 
 since `a` is set to zeto, FrontEndLast has already removed all other statements from `if (a_0 == 32w0) {` and only retained the exit.
